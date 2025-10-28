@@ -90,7 +90,8 @@ git status
 ```
 
 > A área de staging é onde os arquivos ficam “preparados” antes do commit.
-- Com o comando **git add readme.txt**,o arquivo *readme.txt* passa a ser incluído na chamada *staging area (ou área de preparação)*. Isso significa que ele está pronto para ser salvo oficialmente no **histórico do repositório.** Se o comando *git status for usado novamente*, o Git mostrará que o arquivo deixou de ser **“untracked”** (não rastreado) e agora está **“staged”** (preparado), ou seja,  ou seja, o Git agora reconhece o arquivo como sendo um **novo arquivo dentro do repositório.**
+- Com o comando **git add readme.txt**,o arquivo *readme.txt* passa a ser incluído na chamada *staging area (ou área de preparação)*. Isso significa que ele está pronto para ser salvo oficialmente no **histórico do repositório.**
+- Se o comando *git status for usado novamente*, o Git mostrará que o arquivo deixou de ser **“untracked”** (não rastreado) e agora está **“staged”** (preparado), ou seja,  ou seja, o Git agora reconhece o arquivo como sendo um **novo arquivo dentro do repositório.**
 
 ---
 
