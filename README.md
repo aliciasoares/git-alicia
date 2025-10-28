@@ -303,6 +303,8 @@ O Pull Request (PR) é um processo usado para propor mudanças em um repositóri
 - Selecione o **seu branch** (aquele onde você fez as alterações) como origem e o branch main do repositório original como destino. Assim, você estará pedindo para que suas mudanças sejam **adicionadas à versão principal do projeto.**
 
 - Escreva um **título e uma descrição,** explique de forma clara o que foi modificado, adicionado ou corrigido. Isso ajuda os revisores a entenderem a **intenção das suas alterações.**
+- 
+![Descrição Branch] (https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/descri%C3%A7%C3%A3o-branch.png)
 
 - Após revisar as informações, confirme a **criação do Pull Request**, clicando no botão para criá-lo.
 
@@ -316,9 +318,11 @@ O Pull Request (PR) é um processo usado para propor mudanças em um repositóri
 ![Settings](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/settings.png)
 
 **3-** Acesse a seção “Access”, no menu lateral esquerdo e clique em Collaborators (Colaboradores).
+
 ![Settings](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/settings.png)
 
 **4-** Depois, clique no botão verde Add people, para (Adicionar pessoas).
+
 ![Add-people](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/add-people.png)
 
 **5-** Após isso,procure o usuário, nome completo ou e-mail da pessoa que deseja adicionar.
