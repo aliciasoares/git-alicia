@@ -293,17 +293,43 @@ git push origin documentacao-colaboracao
 ## Primeira Etapa: Pull Request
 O Pull Request (PR) é um processo usado para propor mudanças em um repositório, ele serve para que outros desenvolvedores revisem e aprovem as alterações antes que elas sejam incorporadas à versão principal do projeto.
 ## Passos para abrir um Pull Request:
-- Acesse o seu fork no GitHub: entre no repositório que você criou como cópia do original.
--Verifique o branch: o GitHub normalmente identifica que um novo branch foi enviado (por exemplo, documentacao-colaboracao) e sugere a criação de um PR.
+- Acesse o seu **fork** no GitHub, entrando no repositório que você criou como cópia do original.
+-Verifique o **branch**, o GitHub normalmente identifica que um novo branch foi enviado (por exemplo, documentacao-colaboracao) e sugere a criação de um **Pull Request**.
+
 ![Pull-Request](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/pull-request.png)
--Clique em “Open Pull Request”: essa opção abre uma nova página para configurar o PR.
 
-- Selecione o seu branch (aquele onde você fez as alterações) como origem e o branch main do repositório original como destino. Assim, você estará pedindo para que suas mudanças sejam adicionadas à versão principal do projeto.
+- Clique em **“Open Pull Request”**, essa opção abre uma nova página para configurar o **PR.**
 
-- Escreva um título e uma descrição: explique de forma clara o que foi modificado, adicionado ou corrigido. Isso ajuda os revisores a entenderem a intenção das suas alterações.
+- Selecione o **seu branch** (aquele onde você fez as alterações) como origem e o branch main do repositório original como destino. Assim, você estará pedindo para que suas mudanças sejam **adicionadas à versão principal do projeto.**
 
-- Após revisar as informações, confirme a criação do Pull Request, clicando no botão para criá-lo
+- Escreva um **título e uma descrição,** explique de forma clara o que foi modificado, adicionado ou corrigido. Isso ajuda os revisores a entenderem a **intenção das suas alterações.**
 
+- Após revisar as informações, confirme a **criação do Pull Request**, clicando no botão para criá-lo.
+
+## Como adicionar colaboradores ao seu repositório
+- Em repositórios privados, apenas as pessoas que você autoriza podem visualizar e modificar o conteúdo. Por isso, é necessário adicionar colaboradores para que outros usuários possam contribuir e editar o repositório.
+## Passo a passo:
+**1-** Entre na página do repositório ao qual deseja dar acesso.
+
+**2-** Clique nas settings (configurações) do repositório (esta opção fica na parte superior da tela.)
+
+![Settings](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/settings.png)
+
+**3-** Acesse a seção “Access”, no menu lateral esquerdo e clique em Collaborators (Colaboradores).
+![Settings](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/settings.png)
+
+**4-** Depois, clique no botão verde Add people, para (Adicionar pessoas).
+![Add-people](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/add-people.png)
+
+**5-** Após isso,procure o usuário, nome completo ou e-mail da pessoa que deseja adicionar.
+
+
+**6-** Selecione o usuário correto, clique sobre ele na lista e depois em **Add [NOME] to repository (Adicionar [NOME] ao repositório).**
+
+
+**7-** Após isso, o GitHub enviará automaticamente um **convite por e-mail ao usuário**, e o colaborador precisa **aceitar o convite** para ter acesso ao repositório e poder fazer commits também.
+
+---
 
 ## 📘 Créditos
 
