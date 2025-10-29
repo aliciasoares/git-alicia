@@ -303,10 +303,10 @@ O Pull Request (PR) é um processo usado para propor mudanças em um repositóri
 - Selecione o **seu branch** (aquele onde você fez as alterações) como origem e o branch main do repositório original como destino. Assim, você estará pedindo para que suas mudanças sejam **adicionadas à versão principal do projeto.**
 
 - Escreva um **título e uma descrição,** explique de forma clara o que foi modificado, adicionado ou corrigido. Isso ajuda os revisores a entenderem a **intenção das suas alterações.**
-- 
-![Descrição Branch] (https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/descri%C3%A7%C3%A3o-branch.png)
 
 - Após revisar as informações, confirme a **criação do Pull Request**, clicando no botão para criá-lo.
+
+ > A Pull Request também pode ser feita dentro do próprio arquivo após editá-lo, basta selecionar a opção **Create a new branch for this commit and start a pull request**, quando o commit for feito.
 
 ## Como adicionar colaboradores ao seu repositório
 - Em repositórios privados, apenas as pessoas que você autoriza podem visualizar e modificar o conteúdo. Por isso, é necessário adicionar colaboradores para que outros usuários possam contribuir e editar o repositório.
