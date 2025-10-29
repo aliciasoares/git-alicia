@@ -78,7 +78,7 @@ git status
 > `git status` mostra arquivos novos, modificados ou prontos para commit. 
 - Ele indica se há **arquivos novos, modificados ou excluídos** desde o último commit. Por exemplo, logo após criar o **readme.txt**, o Git vai avisar que há um “untracked file”, ou seja, um arquivo novo que ainda não está sendo monitorado. Esse arquivo só vai passar a ser monitorado após o comando **ADD.**
   
-![untracked](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/untracked.png)
+![untracked](img/untracked.PNG)
 
 ---
 
@@ -207,7 +207,7 @@ git merge nova_funcionalidade
 git branch -d nova_funcionalidade
 ```
 
-![branch-d](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/delete-branch.png)
+![branch-d](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/delete-branch.PNG)
 
 
 ---
@@ -231,7 +231,7 @@ git add .gitignore
 git commit -m "Adiciona arquivo .gitignore"
 ```
 
-![.gitinore](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/.gitignore.png)
+![.gitinore](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/gitignore.PNG)
 
 ---
 
