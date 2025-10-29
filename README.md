@@ -78,7 +78,7 @@ git status
 > `git status` mostra arquivos novos, modificados ou prontos para commit. 
 - Ele indica se há **arquivos novos, modificados ou excluídos** desde o último commit. Por exemplo, logo após criar o **readme.txt**, o Git vai avisar que há um “untracked file”, ou seja, um arquivo novo que ainda não está sendo monitorado. Esse arquivo só vai passar a ser monitorado após o comando **ADD.**
   
-![untracked](img/untracked.PNG)
+![untracked](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/untracked.PNG)
 
 ---
 
@@ -94,7 +94,7 @@ git status
 - Com o comando **git add readme.txt**,o arquivo *readme.txt* passa a ser incluído na chamada *staging area (ou área de preparação)*. Isso significa que ele está pronto para ser salvo oficialmente no **histórico do repositório.**
 - Se o comando *git status for usado novamente*, o Git mostrará que o arquivo deixou de ser **“untracked”** (não rastreado) e agora está **“staged”** (preparado), ou seja,  ou seja, o Git agora reconhece o arquivo como sendo um **novo arquivo dentro do repositório.**
   
-![staged](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/staged.png)
+![staged](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/staged.PNG)
 
 ---
 
@@ -140,7 +140,7 @@ git commit -m "Atualiza readme.txt com nova linha"
 
 > `git diff` mostra as diferenças entre a versão atual e a anterior.Assim, dá para ver exatamente **o que foi alterado**, por exemplo, uma nova linha adicionada abaixo de *“Meu primeiro arquivo”.*
 
-![git-diff](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/git-diff.png)
+![git-diff](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/git-diff.PNG)
 
 ---
 
@@ -231,7 +231,7 @@ git add .gitignore
 git commit -m "Adiciona arquivo .gitignore"
 ```
 
-![.gitinore](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/gitignore.PNG)
+![.gitignore](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/gitignore.PNG)
 
 ---
 
@@ -287,6 +287,8 @@ git push origin documentacao-colaboracao
 - O **GitFluence** é um site criado para ajudar quem está aprendendo ou usando o **Git**, especialmente quando se esquece de algum comando. Para usá-lo, não é necessário nenhum tipo de login. Ele funciona como um assistente, onde você digita o que quer fazer, por exemplo, **“criar uma nova branch”** e o site gera automaticamente o comando Git correspondente, pronto para ser copiado e usado.
 ### Como usar?
 -  Para usar a ferramenta, basta acessar o site, digitar a **ação desejada em inglês ou português** (O site responde independente do que você escolher) e apertar a tecla **“Enter”**. Em resposta, o GitFluence então mostra o comando correto para determinada ação de forma rápida, facilitando o uso dos comandos Git.
+  
+![Img Exemplo-gitinfluence](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/gitinfluence.PNG)
 ----
 
 ## Como adicionar colaboradores a um repositório no GitHub?
@@ -296,7 +298,7 @@ O Pull Request (PR) é um processo usado para propor mudanças em um repositóri
 - Acesse o seu **fork** no GitHub, entrando no repositório que você criou como cópia do original.
 -Verifique o **branch**, o GitHub normalmente identifica que um novo branch foi enviado (por exemplo, documentacao-colaboracao) e sugere a criação de um **Pull Request**.
 
-![Pull-Request](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/pull-request.png)
+![Pull-Request](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/pull-request.PNG)
 
 - Clique em **“Open Pull Request”**, essa opção abre uma nova página para configurar o **PR.**
 
@@ -315,15 +317,15 @@ O Pull Request (PR) é um processo usado para propor mudanças em um repositóri
 
 **2-** Clique nas settings (configurações) do repositório (esta opção fica na parte superior da tela.)
 
-![Settings](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/settings.png)
+![Settings](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/settings.PNG)
 
 **3-** Acesse a seção “Access”, no menu lateral esquerdo e clique em Collaborators (Colaboradores).
 
-![Settings](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/settings.png)
+![Colaboradores](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/collaborators.PNG)
 
 **4-** Depois, clique no botão verde Add people, para (Adicionar pessoas).
 
-![Add-people](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/add-people.png)
+![Add-people](https://github.com/aliciasoares/git-alicia/blob/documentacao-colaboracao/img/add-people.PNG)
 
 **5-** Após isso,procure o usuário, nome completo ou e-mail da pessoa que deseja adicionar.
 
